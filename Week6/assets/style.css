@@ -1,0 +1,24 @@
+body{
+    background-color: gainsboro;
+    width: 100%;
+} 
+header{
+   
+margin-left: 50%;
+margin-top: 5%;
+margin-bottom: 5%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2 , 60%);
+    grid-template-rows: repeat (2, 40%);
+    height: 200px;
+}
+.first {
+    background-color: rgba(199, 148, 19, 0.363);
+}
+aside{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}

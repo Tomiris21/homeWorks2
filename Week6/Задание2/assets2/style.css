@@ -47,13 +47,13 @@ img {
     background-repeat: no-repeat;
     background-size: cover ;
     background-position:  center;
-    height: 800px;
+    height: 100vh;
     width: 100vw;
 }
 .text1 {
     color: rgb(141, 198, 141);
     font-style: italic;
-    font-size: 20px;
+    font-size: 1rem;
     grid-column-start: 1;
     grid-row-start: 1;
     margin-top: 33%;
@@ -62,7 +62,7 @@ img {
 .text2 {
     color: rgb(32, 32, 84);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 70px;
+    font-size: 3rem;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -74,7 +74,7 @@ img {
 .text3 {
     color:rgb(32, 32, 84) ;
     background-color: orange;
-    font-size: 15px;
+    font-size: 1rem;
     width: 15%;
     height: 10%;
     grid-column-start: 1;
@@ -93,9 +93,10 @@ img {
     width: 23%;
     height: 70px;
 }
-.comment input{
-    margin-top: 1%;
-    margin-bottom: 2%;
+
+textarea {
     width: 50%;
-    height: 150px
-}
+    height: 100px;
+    margin-top: 1%;
+border:50%;
+font-size: 0.7rem;}

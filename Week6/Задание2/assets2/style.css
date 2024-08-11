@@ -9,11 +9,11 @@ header{
     margin-left: 90px;
     
 }
-.one {
+#one {
     grid-column: 2/3 ;
     grid-row: 1/2;
 }
-.two {
+#two {
     grid-column:  3/4;
     grid-row: 1/2;
 }
@@ -24,7 +24,7 @@ input {
     grid-row-end: 2;
 }
 
-    .cart{
+    #cart{
         grid-column-start: 7;
         grid-column-end: 8;
         grid-row-start: 1;
@@ -228,7 +228,7 @@ font-size: 1.2rem;}
     justify-self: ;
 
  }
- .one, .two, .tree, .cart, input  {
+ #one, #two, #tree, #cart, input  {
     display: none;
  }
 

@@ -1,6 +1,9 @@
 header, footer{
     border-radius:9px;
 }
+.first-part {
+    width: 75%;
+}
 .main{
     margin-left: 10%;
 }

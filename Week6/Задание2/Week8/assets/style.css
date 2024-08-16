@@ -1,0 +1,16 @@
+header, footer{
+    border-radius:9px;
+}
+.main{
+    margin-left: 10%;
+}
+.container{
+    margin-left: 10%;
+}
+.card-header{ height: 200px;
+    width: 240px;
+
+}
+.card-footer {
+  padding-left: 70px;
+}
